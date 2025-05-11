@@ -3,7 +3,7 @@ from google.genai import types
 import os
 from dotenv import load_dotenv
 load_dotenv()
-api_key=os.getenv("GOOGLE_API_KEY")
+api_key="AIzaSyDLXKdgxYTJfDunWPKXNQFr3v_ySfMyF3k"
 if not api_key:
     raise ValueError("API key is missing. Please set it in your environment variables.")
 import PIL.Image
